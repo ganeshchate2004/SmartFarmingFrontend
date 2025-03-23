@@ -1,0 +1,81 @@
+/* DiseasePredictionTable.css */
+
+/* Container for the table */
+.disease-prediction-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 400px;
+    padding: 20px;
+    background-color: #f9f9f968;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table styling */
+  .disease-prediction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table header */
+  .disease-prediction-table thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .disease-prediction-table th {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Table body */
+  .disease-prediction-table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .disease-prediction-table tbody tr:nth-child(even) {
+    background-color: #f2f2f257;
+  }
+  
+  .disease-prediction-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .disease-prediction-table td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .disease-prediction-table thead {
+      display: none;
+    }
+  
+    .disease-prediction-table tbody tr {
+      display: block;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  
+    .disease-prediction-table td {
+      display: block;
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+    }
+  
+    .disease-prediction-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      width: 50%;
+      padding-right: 10px;
+      text-align: left;
+      font-weight: bold;
+    }
+  }

@@ -1,0 +1,13 @@
+.main {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  background-image: url('bg.png'); /* Add your image path */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
+  /* Main Body Styles */
+  .main {
+    padding: 20px;
+  }
+  

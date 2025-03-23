@@ -1,0 +1,40 @@
+/* plantCard.css */
+
+/* Container for all plant cards */
+.graph-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  /* Individual plant card */
+  .graph-card {
+    background-color: #f0f8ff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a card effect */
+    overflow: hidden; /* Ensure the image doesn't overflow the card */
+    width: 980px; /* Fixed width for each card */
+    height: 650px; /* Fixed height for each card */
+    display: flex;
+    margin-top: 20px;
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect on the card */
+  .graph-card:hover {
+    transform: translateY(-5px); /* Slightly raise the card */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+  
+  /* Image inside the card */
+  .graph-image {
+    max-width: 100%; /* Ensure the image doesn't exceed the card width */
+    max-height: 100%; /* Ensure the image doesn't exceed the card height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop the image to fit the card */
+    border-radius: 10px; /* Match the card's rounded corners */
+  }
