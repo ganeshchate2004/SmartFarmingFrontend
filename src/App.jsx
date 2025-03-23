@@ -12,7 +12,7 @@ import PredictDisease from './PredictDisease';
 import AuthForm from './AuthForm';
 import ProtectedRoute from './ProtectedRoute'; // Import the ProtectedRoute component
 import Footer from './Footer';
-import PlantCard from './plantCard';
+import PlantCard from './PlantCard';
 
 
 const App = () => {
