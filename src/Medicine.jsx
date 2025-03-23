@@ -1,5 +1,5 @@
 import React from 'react';
-import './Medicine.css'; // Import CSS for styling
+import './medicine.css'; // Import CSS for styling
 
 const Medicine = () => {
   // Array of medicine data

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import styles from './AuthForm.module.css'; // Import the CSS Module
+import styles from './authform.module.css'; // Import the CSS Module
 
 const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true);
