@@ -9,7 +9,7 @@ import Nav from './Nav';
 import PlantPrediction from './PlantPrediction';
 import PricePrediction from './PricePrediction';
 import PredictDisease from './PredictDisease';
-import AuthForm from './authform';
+import AuthForm from './Authform';
 import ProtectedRoute from './ProtectedRoute'; // Import the ProtectedRoute component
 import Footer from './Footer';
 import PlantCard from './plantCard';
