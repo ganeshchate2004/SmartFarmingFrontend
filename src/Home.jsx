@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import AutoIrrigation from './autoIrrigation';
-import PlantCard from './plantCard';
+import AutoIrrigation from './AutoIrrigation';
 import './Home.css'; // Import the CSS file
 
 const Home = () => {
@@ -9,7 +7,6 @@ const Home = () => {
     <div className='home'>
       <main className="main">
         <AutoIrrigation />
-        {/* <PlantCard/> */}
       </main>
     </div>
   );
