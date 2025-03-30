@@ -4,11 +4,11 @@
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    padding-top: 130px;
-    height: 100vh;
-    background-color: #f0f0f0;
-    background-image: url('https://images.ctfassets.net/l2hapltrg3cz/4yUMbxmmv4VUt1gqJcFsMG/3fe0fe02cab474ebc7cb8b6018107208/Potato-Field.jpg?fm=webp&w=3840&q=85'); /* Add your image path */
-    background-repeat: no-repeat; /* Prevent image repetition */
+    /* padding-top: 130px; */
+    /* height: 100vh; */
+    margin-bottom: 200px;
+    background-color: #f0f0f000;
+
 
     
   }

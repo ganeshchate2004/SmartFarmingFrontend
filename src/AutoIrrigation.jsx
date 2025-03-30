@@ -32,7 +32,8 @@ const AutoIrrigation = () => {
     }, []);
   
     return (
-      <div className="container">
+<div className="bgimg">
+<div className="container">
         <h1>SmartCrop Income Boost</h1>
         <hr />
         <h2>Sensor Data</h2>
@@ -61,6 +62,8 @@ const AutoIrrigation = () => {
           {pumpState ? " Turn Pump OFF" : "Turn Pump ON"}
         </button>
       </div>
+</div>
     );
   };
 export default AutoIrrigation;
+

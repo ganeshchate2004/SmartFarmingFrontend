@@ -9,10 +9,12 @@ body {
     align-items: center;
     min-height: 100vh;
     color: black;
+   
   }
   
   /* Main container to hold form and table side by side */
   .main-container {
+    background-color: greenyellow inherit;
     display: flex;
     gap: 2rem;
     align-items: flex-start;

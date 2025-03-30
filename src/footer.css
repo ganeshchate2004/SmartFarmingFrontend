@@ -1,55 +1,121 @@
+/* footer.css */
+
 .footer {
-    
-    background-color: #36b317da; /* Dark background color */
-    color: #fff; /* White text color */
-    padding: 20px 0; /* Add padding */
-    text-align: center; /* Center-align text */
-    margin-top: 70px; /* Push footer to the bottom */
-    margin-bottom: 0px;
+  background-color: #36b317;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  transform: translateY(-2px);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  padding: 5px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
   }
   
   .footer-content {
-    max-width: 1200px; /* Limit content width */
-    margin: 0 auto; /* Center content */
-    padding: 0 20px; /* Add horizontal padding */
+    gap: 12px;
   }
   
   .footer-links {
-    list-style: none; /* Remove bullet points */
-    padding: 0;
-    margin: 10px 0 0; /* Add margin */
-    display: flex;
-    justify-content: center; /* Center-align links */
-    gap: 20px; /* Add spacing between links */
-  }
-  
-  .footer-links li {
-    display: inline; /* Display links inline */
-  }
-  
-  .footer-links a {
-    color: #fff; /* White link color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make links bold */
-  }
-  
-  .footer-links a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    gap: 12px;
   }
   
   .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Add spacing between icons */
-    margin-top: 10px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 15px 0;
+  }
+  
+  .footer-content {
+    gap: 10px;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    gap: 10px;
   }
   
   .social-icons a {
-    color: #fff; /* White icon color */
-    font-size: 24px; /* Icon size */
-    transition: color 0.3s ease; /* Smooth color transition */
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-links a {
+    font-size: 14px;
   }
   
-  .social-icons a:hover {
-    color: #007bff; /* Change color on hover */
+  .social-icons a {
+    font-size: 18px;
   }
+}

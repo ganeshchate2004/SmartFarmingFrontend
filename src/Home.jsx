@@ -1,5 +1,6 @@
 import React from 'react';
 import AutoIrrigation from './AutoIrrigation';
+
 import './home.css'; // Import the CSS file
 
 const Home = () => {
